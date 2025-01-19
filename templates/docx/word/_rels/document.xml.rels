@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+
+  <Relationship Id="footer1"
+  Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
+  Target="footer1.xml" />
+  <Relationship Id="settings"
+  Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings"
+  Target="settings.xml" />
+  <Relationship Id="styles"
+  Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"
+  Target="styles.xml" />
+</Relationships>

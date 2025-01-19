@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+
+  <w:style w:type="paragraph" w:styleId="Normal">
+    <w:name w:val="Normal" />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" />
+      <w:sz w:val="24" />
+      <w:lang w:val="en-US" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="Footer">
+    <w:name w:val="Footer" />
+    <w:basedOn w:val="Normal" />
+    <w:pPr>
+      <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
+      <w:ind w:right="0" />
+      <w:jc w:val="center" />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="22" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="BodyText">
+    <w:name w:val="BodyText" />
+    <w:basedOn w:val="Normal" />
+    <w:pPr>
+      <w:keepNext />
+      <w:spacing w:after="240" w:before="0" w:line="320"
+      w:lineRule="atLeast" />
+      <w:ind w:left="0" w:right="2880" w:hanging="0" />
+      <w:jc w:val="left" />
+    </w:pPr>
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="Heading1">
+    <w:name w:val="Heading1" />
+    <w:basedOn w:val="BodyText" />
+    <w:pPr>
+      <w:pageBreakBefore />
+      <w:spacing w:after="480" />
+      <w:outlineLvl w:val="0" />
+    </w:pPr>
+    <w:rPr>
+      <w:sz w:val="26" />
+      <w:b />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="FirstParagraph">
+    <w:name w:val="FirstParagraph" />
+    <w:basedOn w:val="BodyText" />
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="BlockText">
+    <w:name w:val="BlockText" />
+    <w:basedOn w:val="BodyText" />
+    <w:pPr>
+      <w:spacing w:after="480" />
+      <w:ind w:left="720" w:right="3600" />
+    </w:pPr>
+  </w:style>
+</w:styles>
